@@ -22,26 +22,17 @@ It allows you to take any input image and generate a sharper, higher-resolution 
 - Pillow  
 
 Install dependencies:  
-```bash```
+```bash
 pip install torch torchvision pillow
-
-## 📂 Project Structure
-AI-Upscaler/
-│── models/
-│ ├── RRDBNet_arch.py # Model architecture
-│ ├── RRDB_ESRGAN_x4.pth # Pretrained ESRGAN weights (download separately)
-│── upscaler.py # Main script
-│── README.md
-
-
+```
 ---
 
 ## 🚀 Usage
 
 1. Run the script:  
-   ```bash```
+   ```bash
    python upscale.py
-
+   ```
 2. Enter the path to your image when prompted:
 
 Where is your image located?
