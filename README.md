@@ -1,4 +1,4 @@
-# 🖼️ AI Image Upscaler (ESRGAN)
+# AI Image Upscaler (ESRGAN)
 
 This project is a **Python-based AI image upscaler** that enhances low-resolution images by **4×** using the pretrained **ESRGAN (Enhanced Super-Resolution Generative Adversarial Network)** model.  
 
@@ -6,7 +6,7 @@ It allows you to take any input image and generate a sharper, higher-resolution 
 
 ---
 
-## 🚀 Features
+## Features
 - Upscales images by **4×** using **ESRGAN**  
 - Runs on **CPU** (no GPU required)  
 - Clean **command-line interface** (just provide an image path when prompted)  
@@ -15,7 +15,7 @@ It allows you to take any input image and generate a sharper, higher-resolution 
 
 ---
 
-## 📦 Requirements
+## Requirements
 - Python 3.8+  
 - [PyTorch](https://pytorch.org/get-started/locally/)  
 - torchvision  
@@ -27,7 +27,7 @@ pip install torch torchvision pillow
 ```
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Run the script:  
    ```bash
@@ -47,7 +47,7 @@ Where is your image located?
 
 ---
 
-## 🧠 How It Works
+## How It Works
 - Loads the pretrained **RRDBNet** model (`RRDB_ESRGAN_x4.pth`)  
 - Converts your input image into a PyTorch tensor  
 - Passes it through the ESRGAN network  
@@ -56,7 +56,7 @@ Where is your image located?
 
 ---
 
-## 📸 Example
+## Example
 Input:  
 Low-resolution 256×256 image  
 
@@ -65,14 +65,14 @@ High-resolution 1024×1024 image (sharper details, reduced blur/artifacts)
 
 ---
 
-## ⚠️ Notes
+## Notes
 - The model runs on **CPU by default**, which may be slower for large images.  
 - For faster performance, install PyTorch with GPU support and run on CUDA.  
 - Output quality depends on the pretrained weights used.  
 
 ---
 
-## 📜 License
+## License
 This project is for **educational purposes only**. The ESRGAN model and pretrained weights are credited to the [original ESRGAN authors](https://github.com/xinntao/ESRGAN).  
 
 ---
